@@ -1,4 +1,9 @@
 # Project2020 - 정우성
+## 04월 17일 멀티미디어 태그 연습
+> HTML Tag Ranking 살펴보기<br>
+img tag 연습<br>
+이미지에 border-radius 적용하기<br>
+
 ## 4월 9일 실습내용
 > css적용방식 <br>
 css초기화 <br>
