@@ -3,6 +3,8 @@
 > HTML Tag Ranking 살펴보기<br>
 img tag 연습<br>
 이미지에 border-radius 적용하기<br>
+audio, video tag 연습<br>
+유튜브 동영상 삽입하기 숙제<br>
 
 ## 4월 9일 실습내용
 > css적용방식 <br>
