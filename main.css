@@ -54,6 +54,12 @@ ul li a {
     background-color: rgb(132, 243, 128);
 
 }
+.homework{
+    height: 450px;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(220, 162, 247);
+}
 /* box medel test */
 .box1{
     display:  inline-block;
