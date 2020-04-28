@@ -1,6 +1,6 @@
 /*
-    * File Name: index.html v0.6.0
-    * Update: 2020.04.28
+    * File Name: index.html v0.7.0
+    * Update: 2020.04.29
     * Author: wjddntjd119
 */
 
@@ -124,27 +124,26 @@ ul li a {
 }
 /*테이블 연습*/
 thead{
-    background-color: rgb(151, 35, 167);
+    background-color: rgb(183, 144, 255);
     color: #fff;
 }
 tfoot{
-    background-color: rgb(151, 35, 167);
+    background-color: rgb(24, 74, 240);
     color: #fff;
 }
 tbody{
-    background-color: rgb(139, 139, 230);
+    background-color: rgb(255, 255, 255);
     
 }
 table{
     width:500px;
-    padding: 100px 0;
+    height:300px;
     border-collapse: collapse;
     border: 1px solid rgb(0,0,0);
-    
 }
 td,th{
     border: 1px solid rgb(0,0,0);
-    padding: 5px 10px;
+    padding: 10px 30px;
 }
 td{
     text-align: center;
@@ -153,5 +152,18 @@ caption{
     border: 1px solid rgb(0,0,0);
     border-bottom: none;
     color:white;
-    background-color: rgb(151, 35, 167);
+    background-color: rgb(233, 78, 104);
+    font-weight: bold;
+    padding: 10px 10px;
+}
+.bold{
+    font-weight: bold;
+}
+.game{
+    color: rgb(24, 74, 240);
+}
+.game2{
+    background-color: rgb(109, 48, 12);
+    font-weight: bold;
+    color: rgb(255, 255, 255);
 }
