@@ -1,6 +1,6 @@
 <!--
-    * File Name: index.html v0.5.0
-    * Update: 2020.04.17
+    * File Name: index.html v0.6.0
+    * Update: 2020.04.28
     * Author: wjddntjd119
 -->
 <!DOCTYPE html>
@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="./vendor/normalize.css">
     <!-- CSS의 외부 적용 방식 -->
     <link rel="stylesheet" href="main.css">
-    
+    <!-- 구글 웹폰트 삽입 -->
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>정우성의 홈페이지</header>
@@ -34,7 +35,7 @@
         </section>
     </article>
     <article class="content-bg">
-        <h1>4월17일 멀티미디어 태그, Audio, Video 태그 연습</h1>
+        <h1>4월17일 멀티미디어 태그</h1>
         <section>
             <img class="img1" src="./images/phone-1052023_640.jpg" alt="책과 스마트폰 지식의 보고" width="100" height="100">
             <img class="img1 img-radius1" src="./images/phone-1052023_640.jpg" alt="책과 스마트폰 지식의 보고" width="100" height="100">
@@ -51,6 +52,7 @@
         </section>
     </article>
     <article class="content-bg2">
+        <h1>Audio, Video 태그 연습</h1>
         <section>
             <audio controls>
                 <source src="https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_700KB.mp3">
@@ -69,6 +71,67 @@
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/0H8PR0NEQUE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </section>
         </section>
+    </article>
+    <article class="content-bg3">
+        <h2>4월 20일 테이블 연습</h2>
+        <section>
+            <table align="center">
+                <caption>테이블 연습</caption>
+                <thead>
+                    <tr>
+                        <th colspan="6">테이블 연습</th>
+                    </tr>
+                    <tr>
+                        <th colspan="6">thead 태그 영역</th>
+                    </tr>
+                    <tr>
+                        <td colspan="3" rowspan="4">
+                            줄 합치기
+                        </td>
+                        <td colspan="3">칸합치기</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="6">ftoot태그 영역</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    </article>
+    <article class="grid-bg">
+        <section class="sec-title">
+            <h2>4월 28일 : grid 연습</h2>
+        </section>
+        <section class="sec-left">left section</section>
+        <section class="sec-right">right section</section>
+    </article>
+    <article class="grid-container">
+        <div class="grid-item item1"></div>
+        <div class="grid-item item2">2</div>
+        <div class="grid-item item3">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>
+        <div class="grid-item">10</div>
     </article>
 <aside>어사이드 영역</aside>
 <footer>여기는 바닥 영역</footer>
