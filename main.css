@@ -1,5 +1,5 @@
 /*
-    * File Name: index.html v0.8.0
+    * File Name: index.html v0.9.0
     * Update: 2020.05.06
     * Author: wjddntjd119
 */
@@ -11,21 +11,23 @@
     font-weight: bold;
     text-decoration: none;
 }
+/*fullscreen bg*/
+
 /* main menu */
 ul {
-    width : 100%;
     height: 30px;
     margin: 0;
     padding: 15px;
     background: rgb(49.49,49);
     list-style: none;
+    background-color: rgb(235, 97, 161);
 }
-
 ul li {
     float: left;
     margin: 10px;
 }
 ul li a {
+    
     color: rgb(29, 202, 115);
     font-size: 30px;
     font-weight: bold;
@@ -34,7 +36,7 @@ ul li a {
 }
 /* article background */
 .menu-bg{
-    width: 100%;
+    
     height: 300px;
     padding: 15px;
     text-align: center;
@@ -42,7 +44,7 @@ ul li a {
 
 }
 .content-bg{
-    width: 100%;
+    
     height: 550px;
     padding: 15px;
     text-align: center;
@@ -50,7 +52,7 @@ ul li a {
 
 }
 .content-bg2{
-    width: 100%;
+    
     height: 450px;
     padding: 15px;
     text-align: center;
@@ -58,7 +60,7 @@ ul li a {
 
 }
 .content-bg3{
-    width: 100%;
+    
     height: 450px;
     padding: 15px;
     text-align: center;
@@ -66,7 +68,7 @@ ul li a {
 
 }
 .sec-title{
-    width: 100%;
+    
     height: 70px;
     padding: 15px;
     text-align: center;
@@ -74,7 +76,7 @@ ul li a {
 
 }
 .homework{
-    width: 100%;
+    
     height: 450px;
     padding: 15px;
     text-align: center;
@@ -201,7 +203,6 @@ caption{
     background-color: rgb(207,42,42);
     display: grid;
     height:540px;
-    width: 100%;
     grid: 100px 100px 100px 100px 100px/auto auto auto;
     grid-gap: 10px;
     padding: 10px;
@@ -225,4 +226,33 @@ caption{
 }
 .item10{
     grid-column:2/4;
+}
+.full-bg{
+    background: url(./images/mckenzie-river-5129717_1920.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    width:100%;
+    display: table;
+}
+.container {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.header-title {
+    display: inline-block;
+    width: 50%;
+    height: 140px;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 25px;
+    background: rgba(253, 153, 60, 0.8);
+    color:#fff;
+    border: rgb(7, 2, 80);
+    border-style: solid;
+}
+.header-sub-title{
+    font-size: 20px;
+    color:rgb(45, 34, 211);
+    padding-top: 25px;
 }
