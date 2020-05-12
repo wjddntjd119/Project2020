@@ -1,5 +1,5 @@
 /*
-    * File Name: index.html v0.9.0
+    * File Name: index.html v0.10.0
     * Update: 2020.05.06
     * Author: wjddntjd119
 */
@@ -26,13 +26,37 @@ ul li {
     float: left;
     margin: 10px;
 }
-ul li a {
+.menu li {
     
     color: rgb(29, 202, 115);
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
     font-family: 'Nanum Pen Script', cursive;
+}
+a:link { color: rgb(4, 0, 255); text-decoration: none;}
+a:visited { color: black; text-decoration: none;}
+a:hover { color: blue; text-decoration: none;}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+.menu li ul {
+    background: rgb(197, 241, 247);
+    display:none;
+    height:auto;
+    padding:0px;
+    margin:0px;
+    border:0px;
+    position:absolute;
+    width:200px;
+    z-index:200;
+}
+.menu li:hover ul {
+    display:block;
 }
 /* article background */
 .menu-bg{
