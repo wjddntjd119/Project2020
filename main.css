@@ -1,6 +1,6 @@
 /*
-    * File Name: index.html v0.10.0
-    * Update: 2020.05.06
+    * File Name: index.html v0.10.1
+    * Update: 2020.05.12
     * Author: wjddntjd119
 */
 
@@ -17,10 +17,11 @@
 ul {
     height: 30px;
     margin: 0;
-    padding: 15px;
+    padding: 10px 15px 25px 15px;
     background: rgb(49.49,49);
     list-style: none;
-    background-color: rgb(235, 97, 161);
+    background-color: rgb(97, 235, 201);
+
 }
 ul li {
     float: left;
@@ -28,7 +29,7 @@ ul li {
 }
 .menu li {
     
-    color: rgb(29, 202, 115);
+    color: rgb(55, 29, 202);
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
@@ -36,7 +37,7 @@ ul li {
 }
 a:link { color: rgb(4, 0, 255); text-decoration: none;}
 a:visited { color: black; text-decoration: none;}
-a:hover { color: blue; text-decoration: none;}
+.menu li ul a:hover { color: rgb(243, 97, 231); text-decoration: none;}
 
 .menu {
     position: fixed;
