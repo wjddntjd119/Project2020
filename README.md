@@ -1,4 +1,20 @@
 # Project2020 - 정우성
+## 05월 22일 Bootsrap의 다양한 기능 배우기
+>bootsrap.html 생성<br>
+bootsrap navbar 생성<br>
+slide 이미지 편집<br>
+bootsrap slide 꽃말 생성 <br>
+bootsrap alert 생성<br>
+bootsrap button 생성(고스트버튼생성에 유용)<br>
+bootsrap collapse 생성(FAQ에 많이 사용됨)<br>
+bootsrap form 생성(아이디 비번에 많이 사용)<br>
+bootsrap modal 생성(팝업창에 많이 사용)<br>
+bootsrap progress 생성(그래프,게이지 생성)<br>
+id는 여러번 사용할경우 충돌가능성이 있음<br>
+fontawesome script 추가<br>
+feather을 이용한 svg파일 다운후 아이콘 생성<br>
+svg의 fill stroke 색바꾸기, 크기바꾸기 사용 
+
 ## 05월 12일 메뉴고정, 보조메뉴 만들기
 >메뉴 상단에 고정시키기<br>
 메뉴에 마우스 올리면 보조메뉴 생성<br>
