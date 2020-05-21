@@ -1,6 +1,6 @@
 /*
     * File Name: index.html v0.0.0
-    * Update: 2020.05.21
+    * Update: 2020.05.22
     * Author: wjddntjd119
 */
 
@@ -84,7 +84,7 @@ a:visited { color: black; text-decoration: none;}
 }
 .content-bg3{
     
-    height: 450px;
+    height: 150px;
     padding: 15px;
     text-align: center;
     background-color: rgb(128, 220, 243);
@@ -99,17 +99,38 @@ a:visited { color: black; text-decoration: none;}
 
 }
 footer{
-    height: 25px;
+    height: 50px;
     padding: 15px;
     text-align: center;
     background-color: rgb(165, 156, 250);
 }
 .homework{
     
-    height: 100px;
+    height: 350px;
     padding: 15px;
     text-align: center;
     background-color: rgb(220, 162, 247);
+}
+.homework2{
+    
+    height: 150x;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(196, 245, 63);
+}
+.svg{
+    
+    height: 150x;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(164, 162, 247);
+}
+.svg2{
+    
+    height: 200px;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(200, 247, 162);
 }
 /* box medel test */
 .box1{
@@ -229,8 +250,7 @@ caption{
     width:50%;
 }
 .grid-container{
-    background-color: rgb(207,42,42);
-    display: grid;
+    background-color: rgb(149, 245, 162);
     height:540px;
     grid: 100px 100px 100px 100px 100px/auto auto auto;
     grid-gap: 10px;
@@ -284,4 +304,9 @@ caption{
     font-size: 20px;
     color:rgb(45, 34, 211);
     padding-top: 25px;
+}
+/* article 폭 */
+.width-50{
+    width: 50%;
+    margin-left: 25%;
 }
