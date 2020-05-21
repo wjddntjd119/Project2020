@@ -1,0 +1,248 @@
+<!--
+    * File Name: index.html v0.0.0
+    * Update: 2020.05.21
+    * Author: wjddntjd119
+-->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>정우성의 홈페이지</title>
+    <!-- css초기화 / normalize.css -->
+    <link rel="stylesheet" href="./vendor/normalize.css">
+    <!-- CSS의 외부 적용 방식 -->
+    <link rel="stylesheet" href="main2.css">
+    <!-- 구글 웹폰트 삽입 -->
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="vendor/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="vendor/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <!-- Image and text -->
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <a class="navbar-brand" href="#">
+      <img src="https://getbootstrap.com/docs/4.5/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+      Bootstrap
+    </a>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          
+          <li class="nav-item active">
+            <a class="nav-link" href="#alerts">Alerts 연습</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#button">Button 연습</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#button">Button 연습</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#button">Button 연습</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#button">Button 연습</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown link
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+  </nav>
+  <header id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/벚꽃.png" class="d-block w-100" alt="벚꽃">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="black_b">벚꽃</h5>
+          <p class="black">[꽃말]<br> '삶의 덧없음과 아름다움, 순결, 뛰어난 아름다움, 절세미인, 정신미, 교양, 부, 그리고 번영'</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/목련.PNG" class="d-block w-100" alt="목련">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="black_b">목련</h5>
+          <p class="black">[꽃말]<br> '숭고한 정신, 고귀함, 우애, 자연애'</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/개나리.PNG" class="d-block w-100" alt="개나리">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="black_b">개나리</h5>
+          <p class="black">[꽃말]<br> '희망, 깊은 정, 조춘의 감격, 달성'</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </header>
+    
+    <article class="menu-bg" id="alerts">
+        <h1>5월 21일 alert 연습</h1>
+        <section>
+            <div class="alert alert-primary" role="alert">
+                A simple primary alert—check it out!
+              </div>
+              <div class="alert alert-secondary" role="alert">
+                A simple secondary alert—check it out!
+              </div>
+              <div class="alert alert-success" role="alert">
+                A simple success alert—check it out!
+              </div>
+              <div class="alert alert-danger" role="alert">
+                A simple danger alert—check it out!
+              </div>
+              <div class="alert alert-warning" role="alert">
+                A simple warning alert—check it out!
+              </div>
+              <div class="alert alert-info" role="alert">
+                A simple info alert—check it out!
+              </div>
+              <div class="alert alert-light" role="alert">
+                A simple light alert—check it out!
+              </div>
+              <div class="alert alert-dark" role="alert">
+                A simple dark alert—check it out!
+              </div>
+        </section>
+    </article>
+    <article class="content-bg" id="button">
+        <h1>5월 21일 Button 연습</h1>
+        <section>
+            <button type="button" class="btn btn-primary btn-lg">Primary</button>
+            <button type="button" class="btn btn-secondary btn-sm">Secondary</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-info">Info</button>
+            <button type="button" class="btn btn-light">Light</button>
+            <button type="button" class="btn btn-dark">Dark</button>
+            <button type="button" class="btn btn-link">Link</button>
+        </section> <br>
+        <section>
+            <button type="button" class="btn btn-outline-primary btn-lg">Primary</button>
+            <button type="button" class="btn btn-outline-secondary">Secondary</button>
+            <button type="button" class="btn btn-outline-success">Success</button>
+            <button type="button" class="btn btn-outline-danger">Danger</button>
+            <button type="button" class="btn btn-outline-warning">Warning</button>
+            <button type="button" class="btn btn-outline-info">Info</button>
+            <button type="button" class="btn btn-outline-light">Light</button>
+            <button type="button" class="btn btn-outline-dark">Dark</button>
+            <br><br>
+            <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+            <button type="button" class="btn btn-secondary btn-lg btn-block">Block level button</button>
+        </section><br>
+        <section>
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-secondary">Left</button>
+                <button type="button" class="btn btn-danger">Middle</button>
+                <button type="button" class="btn btn-success">Right</button>
+            </div>
+        </section>
+    </article>
+    <article class="content-bg2" id="audio">
+        <h1>Audio, Video 태그 연습</h1>
+        <section>
+            <audio controls>
+                <source src="https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_700KB.mp3">
+                현재 브라우저에서는 오디오 태그를 지원하지 않습니다.
+            </audio>
+            <video width="350px" height="250px" controls>
+                <source src="./video/Flower - 31953.mp4">
+                현재 브라우저에서는 비디오 태그를 지원하지 않습니다.
+            </video>
+        </section>
+    </article>
+    <article class="homework" id="youtube">
+        <section>
+            <h2>유튜브 동영상 삽입 연습</h2>
+            <section>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/0H8PR0NEQUE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+        </section>
+    </article>
+    <article class="content-bg3" id="table">
+        <h2>4월 29일 테이블 연습</h2>
+        <section>
+            <table align="center">
+                <caption>테이블연습(나만의 테이블 만들기)</caption>
+                <thead>
+                    
+                    <tr>
+                        <th colspan="6">깜짝 두뇌 퀴즈!</th>
+                    </tr>
+                </thead>    
+                    <tr>
+                        <td class="bold" colspan="3" rowspan="4">
+                            길을 걸어가다 <span class="game2">벽</span>에<br><span class="game2">3X3</span>으로 이루어진<br>낙서를 발견했습니다.
+                        </td>
+                        <td class="bold" colspan="3">다음 ?에 들어갈 <br>알맞은 값을 구하시오.</td>
+                    </tr>
+                    <tr>
+                        <td class="game2">7</td>
+                        <td class="game2">12</td>
+                        <td class="game2">11</td>
+                    </tr>
+                    <tr>
+                        <td class="game2">14</td>
+                        <td class="game2">?</td>
+                        <td class="game2">6</td>
+                    </tr>
+                    <tr class="game2">
+                        <td>9</td>
+                        <td>8</td>
+                        <td>13</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="6">힌트(옆을 드래그 해보세요.) : <span class="game">마방진</span> <- </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    </article>
+    <section class="sec-title" id="grid">
+        <h2>4월 28일 : grid 연습</h2>
+    </section>
+    <section class="sec-left">left section</section>
+    <section class="sec-right">right section</section>
+    
+    <article class="grid-container">
+        <div class="grid-item item1">5월6일 : CSS Grid</div>
+        <div class="grid-item item2">2</div>
+        <div class="grid-item item3">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>
+        <div class="grid-item item10">10</div>
+    </article>
+<footer>Copyright &copy; 2020 정우성. All rights reserved.
+</footer>
+</body>
+</html>
