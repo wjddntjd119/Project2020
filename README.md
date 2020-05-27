@@ -1,4 +1,8 @@
 # Project2020 - 정우성
+## 05월 28일 project 이전
+> develop의 위치가 mater보다 아래에 위치하는<br>
+오류로 인하여 develop에 feature의 추가가 더이상<br>
+진행되지않아 Project_2로 파일 업로드 하도록 하겠습니다.
 ## 05월 22일 Bootsrap의 다양한 기능 배우기
 >bootsrap.html 생성<br>
 bootsrap navbar 생성<br>
