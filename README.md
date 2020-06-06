@@ -1,6 +1,6 @@
 # Project2020 - 정우성
 ## 06월 6일 jQuery 의 개념과 사용방법
-> jquery1 - attr()메소드를 이용한 객체속성 조작<br>
+>jquery1 - attr()메소드를 이용한 객체속성 조작<br>
 jquery2 - attr()메소드를 이용한 객체 속성값 추출 및 지정<br>
 jquery3 - css()메소드를 스타일 조작<br>
 jquery4 - for문과 css()메소드를 이용한 그라데이션 생성<br>
