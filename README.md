@@ -1,4 +1,19 @@
 # Project2020 - 정우성
+## 06월 6일 jQuery 의 개념과 사용방법
+>jquery1 - attr()메소드를 이용한 객체속성 조작<br>
+jquery2 - attr()메소드를 이용한 객체 속성값 추출 및 지정<br>
+jquery3 - css()메소드를 스타일 조작<br>
+jquery4 - for문과 css()메소드를 이용한 그라데이션 생성<br>
+jquery5 - text(), html()메소드를 이용한 객체 내부 글자 조작<br>
+jquery6 - addClass(), removeClass() 메소드를 이용한 클래스 추가, 제거, 전환<br>
+jquery7 - toggleClass() 메서드를 이용한 글자 페이드 아웃 효과<br>
+jquery8 - jquery을 이용한 애니메이션 생성과 멈춤,초기화 버튼 생성<br>
+jquery9 - 무한 스크롤 생성<br>
+jquery10 - jQuery plugins: lihgt box 를 이용해 이미지 생성<br>
+jquery11 - jQuery plugins: covid-19에 대한 한국, 미국, 일본의 정보 실시간 표시<br>
+jquery12 - jQuery plugins: masonry를 이용한 폭은 일정하지만 높이가 달라지는 박스 생성<br>
+
+
 ## 05월 28일 JSP, DOM의 이해와 실습
 > JSP의 기본문법들<br>
 DOM의 개요와 이해<br>
